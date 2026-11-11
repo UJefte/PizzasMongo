@@ -25,6 +25,14 @@ npm run dev
 
 Colección de Postman en la carpeta `postman` (ambiente `dev`).
 
+Para generar el reporte HTML con newman y htmlextra (con el servidor corriendo):
+
+```
+npm run reporte
+```
+
+El reporte queda en [`reportes/reporte.html`](reportes/reporte.html).
+
 ![Postman](capturas/postman-1.png)
 
 ![Postman](capturas/postman-2.png)
