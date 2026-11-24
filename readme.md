@@ -33,6 +33,15 @@ npm run reporte
 
 El reporte queda en [`reportes/reporte.html`](reportes/reporte.html).
 
+Prueba con K6 de los endpoints (con el servidor corriendo):
+
+```
+npm run k6
+```
+
+- Script: [`k6/pizzas.k6.js`](k6/pizzas.k6.js)
+- Reporte: [`reportes/k6.html`](reportes/k6.html)
+
 ![Postman](capturas/postman-1.png)
 
 ![Postman](capturas/postman-2.png)

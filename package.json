@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "reporte": "newman run postman/PizzasMongo.postman_collection.json -e postman/dev.postman_environment.json -r cli,htmlextra --reporter-htmlextra-export reportes/reporte.html --reporter-htmlextra-title \"Reporte Pizzas Mongo\""
+    "reporte": "newman run postman/PizzasMongo.postman_collection.json -e postman/dev.postman_environment.json -r cli,htmlextra --reporter-htmlextra-export reportes/reporte.html --reporter-htmlextra-title \"Reporte Pizzas Mongo\"",
+    "k6": "k6 run k6/pizzas.k6.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
